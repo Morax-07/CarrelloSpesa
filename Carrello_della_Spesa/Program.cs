@@ -1,9 +1,10 @@
-﻿namespace Carrello_della_Spesa;
-
-class Program
+﻿namespace Carrello_della_Spesa
 {
-    static void Main(string[] args)
+    static class Program
     {
-        Console.WriteLine("Hello, World!");
+        public static void Main(String[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
     }
 }

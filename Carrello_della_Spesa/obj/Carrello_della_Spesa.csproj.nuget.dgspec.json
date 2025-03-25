@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/Carrello_della_Spesa/Carrello_della_Spesa/Carrello_della_Spesa.csproj": {}
+    "/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/CarrelloSpesa/Carrello_della_Spesa/Carrello_della_Spesa.csproj": {}
   },
   "projects": {
-    "/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/Carrello_della_Spesa/Carrello_della_Spesa/Carrello_della_Spesa.csproj": {
+    "/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/CarrelloSpesa/Carrello_della_Spesa/Carrello_della_Spesa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/Carrello_della_Spesa/Carrello_della_Spesa/Carrello_della_Spesa.csproj",
+        "projectUniqueName": "/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/CarrelloSpesa/Carrello_della_Spesa/Carrello_della_Spesa.csproj",
         "projectName": "Carrello_della_Spesa",
-        "projectPath": "/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/Carrello_della_Spesa/Carrello_della_Spesa/Carrello_della_Spesa.csproj",
+        "projectPath": "/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/CarrelloSpesa/Carrello_della_Spesa/Carrello_della_Spesa.csproj",
         "packagesPath": "/home/francesco/.nuget/packages/",
-        "outputPath": "/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/Carrello_della_Spesa/Carrello_della_Spesa/obj/",
+        "outputPath": "/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/CarrelloSpesa/Carrello_della_Spesa/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
