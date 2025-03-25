@@ -11,20 +11,6 @@ public class InfoPC
     private string os;
     private float peso;
     
-    /* metodi */
-    
-    /* Costruttore */
-    public InfoPC(string processore, string ram, string archiviazione, string gpu, string schedaMadre, string os,
-        float peso)
-    {
-        
-    }
-    
-    /* Costruttore Copia */
-    public InfoPC(InfoPC info)
-    {
-        
-    }
     
     /* Propriety */
     
@@ -35,5 +21,31 @@ public class InfoPC
     public string SchedaMadre { get => schedaMadre; set => schedaMadre = value; }
     public string Os { get => os; set => os = value; }
     public float Peso { get => peso; set => peso = value; }
+
+    /* Costruttore */
+    public InfoPC(string processore, string ram, string archiviazione, string gpu, string schedaMadre, string os,
+        float peso)
+    {
+        Processore = processore;
+        Ram = ram;
+        Archiviazione = archiviazione;
+        Gpu = gpu;
+        SchedaMadre = schedaMadre;
+        Os = os;
+        Peso = peso;
+    }
     
+    /* Costruttore Copia */
+    public InfoPC(InfoPC info)
+    {
+        Processore = info.Processore;
+        Ram = info.Ram;
+        Archiviazione = info.Archiviazione;
+        Gpu = info.Gpu;
+        SchedaMadre = info.SchedaMadre;
+        Os = info.Os;
+        Peso = info.Peso;
+    }
+    
+   
 }
