@@ -8,25 +8,31 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/francesco/.nuget/packages/": {}
+    "C:\\Users\\crist\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/Carrello_della_Spesa/Carrello_della_Spesa/Carrello_della_Spesa.csproj",
+      "projectUniqueName": "G:\\CarrelloSpesa\\Carrello_della_Spesa\\Carrello_della_Spesa.csproj",
       "projectName": "Carrello_della_Spesa",
-      "projectPath": "/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/Carrello_della_Spesa/Carrello_della_Spesa/Carrello_della_Spesa.csproj",
-      "packagesPath": "/home/francesco/.nuget/packages/",
-      "outputPath": "/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/Carrello_della_Spesa/Carrello_della_Spesa/obj/",
+      "projectPath": "G:\\CarrelloSpesa\\Carrello_della_Spesa\\Carrello_della_Spesa.csproj",
+      "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+      "outputPath": "G:\\CarrelloSpesa\\Carrello_della_Spesa\\obj\\",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/francesco/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -44,7 +50,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -65,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/francesco/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
