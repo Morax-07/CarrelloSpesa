@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Carrello_della_Spesa/1.0.0": {
+        "runtime": {
+          "Carrello_della_Spesa.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Carrello_della_Spesa/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

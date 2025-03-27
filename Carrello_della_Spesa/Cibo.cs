@@ -33,20 +33,28 @@ namespace Carrello_della_Spesa
         
         //costruttore
         //utilizzato per la creazione dei modelli degli oggetti
-        public Cibo(String nome, int codiceSeriale, float prezzo, ValoriNutrizionali valoriNutrizionali,
-            DateOnly dataScadenza)
+        public Cibo(String nome, int codiceSeriale, float prezzo, ValoriNutrizionali valoriNutrizionali, DateOnly dataScadenza)
             : base(nome, codiceSeriale, prezzo, valoriNutrizionali)
         {
-            this.dataScadenza = dataScadenza;
+            DataScadenza = dataScadenza;
         }
         
         //costruttore copia
         //utilizzato per la creazione degli oggetti da aggiungere al carrello
         public Cibo(Cibo cibo) : base(cibo)
         {
-            this.dataScadenza = new DateOnly(cibo.dataScadenza.Year, cibo.dataScadenza.Month, cibo.dataScadenza.Month);
+            DataScadenza = new DateOnly(cibo.dataScadenza.Year, cibo.dataScadenza.Month, cibo.dataScadenza.Month);
         }
 
+        public override string ToString()
+        {
+            return $"Nome: {Nome};\n" +
+                   $"Codice seriale: {CodiceSeriale};\n" +
+                   $"Prezzo: {Prezzo}€;\n" +
+                   $"Data di scadenza: {dataScadenza}\n\n" +
+                   $"Valori nutrizionali:\n" +
+                   $"{valoriNutrizionali.ToString()}";
+        }
 
         public override String toJsonString()
         {

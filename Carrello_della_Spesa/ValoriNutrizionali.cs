@@ -108,14 +108,14 @@ namespace Carrello_della_Spesa
         public override string ToString()
         {
             return
-                $"Proteine: {Proteine};\nCarboidrati: {Carboidrati};\nGrassi: {Grassi};" +
-                $"\nCalorie totali: {CalorieTotali}cal;\nEnergia per 100g: {EnergiaPerCentoGrammi};" +
-                $"\nPeso in grammi: {PesoInGrammi};";
+                $"\tProteine: {Proteine}g;\n\tCarboidrati: {Carboidrati}g;\n\tGrassi: {Grassi}g;" +
+                $"\n\tCalorie totali: {CalorieTotali}cal;\n\tEnergia per 100g: {EnergiaPerCentoGrammi}cal;" +
+                $"\n\tPeso in grammi: {PesoInGrammi}g;";
         }
 
         public String toJsonString()
         {
-            return "\"Proteine\"";
+            return "";
         }
-    }   
+    }
 }

@@ -11,7 +11,10 @@ namespace Carrello_della_Spesa
         protected int codiceSeriale;
         protected float prezzo;
         private static String[] nomiProdotti = {
-
+            "Mela",
+            "Banana",
+            "Acqua",
+            "Birra"
         };
         private static List<int> codiciProdotti = new List<int>();
 
@@ -42,6 +45,8 @@ namespace Carrello_della_Spesa
                     if (!nome_valido)
                         value = Input.input("Il nome del prodotto non e' valido, inserirlo di nuovo: ", "");
                 }
+                
+                this.nome = value;
             }
         }
         public int CodiceSeriale
@@ -49,7 +54,7 @@ namespace Carrello_della_Spesa
             get => this.codiceSeriale;
             set
             {
-                while (value.ToString().Length != 8 || !codiceGiaEsistente(value))
+                while (value.ToString().Length != 8 || codiceGiaEsistente(value))
                     value = Convert.ToInt32(Input.input("Il codice seriale inserito non e' valido, inserirlo di nuovo: ", ""));
                 
                 this.codiceSeriale = value;
@@ -107,5 +112,10 @@ namespace Carrello_della_Spesa
         }
         public abstract String toJsonString();
         public abstract override string ToString();
+
+        public String formatoScontrino()
+        {
+            return $"{CodiceSeriale,-10}{Nome,-20}{Prezzo:F2}€";
+        }
     }
 }
