@@ -1,22 +1,34 @@
-namespace Carrello_della_Spesa;
-
-public class Computer : Elettronico
+namespace Carrello_della_Spesa
 {
-    /* attributi */
-    private InfoPC info;
-    
-    /* propriety */
-    public InfoPC Info { get => info; set => info = value; }
-    
-    /* costruttore */
-    public Computer(float consumo, string tipoAlimentazione, List<string> pericoli, InfoPC info) : base(consumo, tipoAlimentazione, pericoli)
+    public class Computer : Elettronico
     {
-        Info = info;
-    }
+        /* attributi */
+        private InfoPC info;
+    
+        /* propriety */
+        public InfoPC Info { get => info; set => info = value; }
+    
+        /* costruttore */
+        public Computer(String nome, int codiceSeriale, float prezzo, float consumo, string tipoAlimentazione, List<string> pericoli, InfoPC info) 
+            : base(nome, codiceSeriale, prezzo, consumo, tipoAlimentazione, pericoli)
+        {
+            Info = info;
+        }
    
-    /* costruttore copia */
-    public Computer(Computer computer) : base(computer)
-    {
-        Info = computer.Info;
+        /* costruttore copia */
+        public Computer(Computer computer) : base(computer)
+        {
+            Info = computer.Info;
+        }
+
+        public override string ToString()
+        {
+            return $"";
+        }
+
+        public override String toJsonString()
+        {
+            return $"";
+        }
     }
 }

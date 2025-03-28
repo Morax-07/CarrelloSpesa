@@ -10,13 +10,6 @@ namespace Carrello_della_Spesa
         protected String nome;
         protected int codiceSeriale;
         protected float prezzo;
-        private static String[] nomiProdotti = {
-            "Mela",
-            "Banana",
-            "Acqua",
-            "Birra"
-        };
-        private static List<int> codiciProdotti = new List<int>();
 
 
 
@@ -33,7 +26,7 @@ namespace Carrello_della_Spesa
 
                 while (!nome_valido)
                 {
-                    foreach (String nome in nomiProdotti)
+                    foreach (String nome in Modelli.nomiProdotti)
                     {
                         if (value == nome)
                         {
@@ -86,7 +79,7 @@ namespace Carrello_della_Spesa
             CodiceSeriale = codiceSeriale;
             Prezzo = prezzo;
             
-            codiciProdotti.Add(codiceSeriale);
+            Modelli.codiciProdotti.Add(codiceSeriale);
         }
 
         //costruttore copia
@@ -103,7 +96,7 @@ namespace Carrello_della_Spesa
         //metodi
         private bool codiceGiaEsistente(int valore)
         {
-            foreach (int codice in codiciProdotti)
+            foreach (int codice in Modelli.codiciProdotti)
             {
                 if(valore == codice) return true;
             }

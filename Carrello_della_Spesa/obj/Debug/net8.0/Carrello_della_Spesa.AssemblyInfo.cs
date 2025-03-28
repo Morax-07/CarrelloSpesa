@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Carrello_della_Spesa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c87351254c7d434e61aa2993b779b2bec0487d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4860f73e5e2d5b779a4b2d935c407c6920f2bed8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Carrello_della_Spesa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Carrello_della_Spesa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

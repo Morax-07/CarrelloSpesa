@@ -40,7 +40,7 @@
             
             
             
-            foreach(Prodotto prodotto in prodotti) Console.WriteLine(prodotto.formatoScontrino());
+            foreach(Prodotto prodotto in prodotti) Console.WriteLine("\n" + prodotto.ToString());
         }
     }
 }

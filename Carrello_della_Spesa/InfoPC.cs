@@ -46,6 +46,14 @@ public class InfoPC
         Os = info.Os;
         Peso = info.Peso;
     }
-    
-   
+
+    public override string ToString()
+    {
+        return $"";
+    }
+
+    public String toJsonString()
+    {
+        return $"";
+    }
 }
