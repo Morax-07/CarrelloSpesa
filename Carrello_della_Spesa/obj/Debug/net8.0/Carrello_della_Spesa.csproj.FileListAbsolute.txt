@@ -1,0 +1,14 @@
+/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/CarrelloSpesa/Carrello_della_Spesa/bin/Debug/net8.0/Carrello_della_Spesa
+/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/CarrelloSpesa/Carrello_della_Spesa/bin/Debug/net8.0/Carrello_della_Spesa.deps.json
+/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/CarrelloSpesa/Carrello_della_Spesa/bin/Debug/net8.0/Carrello_della_Spesa.runtimeconfig.json
+/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/CarrelloSpesa/Carrello_della_Spesa/bin/Debug/net8.0/Carrello_della_Spesa.dll
+/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/CarrelloSpesa/Carrello_della_Spesa/bin/Debug/net8.0/Carrello_della_Spesa.pdb
+/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/CarrelloSpesa/Carrello_della_Spesa/obj/Debug/net8.0/Carrello_della_Spesa.GeneratedMSBuildEditorConfig.editorconfig
+/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/CarrelloSpesa/Carrello_della_Spesa/obj/Debug/net8.0/Carrello_della_Spesa.AssemblyInfoInputs.cache
+/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/CarrelloSpesa/Carrello_della_Spesa/obj/Debug/net8.0/Carrello_della_Spesa.AssemblyInfo.cs
+/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/CarrelloSpesa/Carrello_della_Spesa/obj/Debug/net8.0/Carrello_della_Spesa.csproj.CoreCompileInputs.cache
+/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/CarrelloSpesa/Carrello_della_Spesa/obj/Debug/net8.0/Carrello_della_Spesa.dll
+/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/CarrelloSpesa/Carrello_della_Spesa/obj/Debug/net8.0/refint/Carrello_della_Spesa.dll
+/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/CarrelloSpesa/Carrello_della_Spesa/obj/Debug/net8.0/Carrello_della_Spesa.pdb
+/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/CarrelloSpesa/Carrello_della_Spesa/obj/Debug/net8.0/Carrello_della_Spesa.genruntimeconfig.cache
+/home/francesco/Scrivania/Scuola/Informatica/Programmi C#/CarrelloSpesa/Carrello_della_Spesa/obj/Debug/net8.0/ref/Carrello_della_Spesa.dll
